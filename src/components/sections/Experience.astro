@@ -19,9 +19,13 @@ const shortMonths = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Se
               <header>
                 <div>
                   <h3>
-                    <a href={url} title={`Ver ${name}`} target="_blank">
-                      {name}
-                    </a>
+                    {
+                      url ? (
+                        <a href={url} target="_blank" title={`Go to ${name}`}>
+                          {name}
+                        </a>
+                      ) : <span>{name}</span>
+                    }
                   </h3>
                   <time>{yearRange}</time>
                 </div>
@@ -29,7 +33,7 @@ const shortMonths = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Se
                 <h5>{location}</h5>
               </header>
               <footer>
-                <p>{summary}</p>
+                {summary.split('\n').map((line) => <p>- {line}</p>)}
               </footer>
             </article>
           </li>
