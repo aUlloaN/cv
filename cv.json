@@ -150,7 +150,10 @@
       "endDate": "2021-01-01",
       "description": "Description...",
       "highlights": [
-        "Won award at AIHacks 2016"
+        "React",
+        "Redux",
+        "SCSS",
+        "Product"
       ]
     },
     {
@@ -169,7 +172,10 @@
       "endDate": "2021-01-01",
       "description": "Description...",
       "highlights": [
-        "Won award at AIHacks 2016"
+        "React",
+        "Redux",
+        "SCSS",
+        "Product"
       ]
     }
   ]

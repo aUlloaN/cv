@@ -14,11 +14,6 @@ const SOCIAL_ICONS: Record<string, any> = {
   GitHub,
   LinkedIn,
 };
-
-const linkedInfo = profiles.find(({ network }) => network === "LinkedIn");
-const linkedUrl = linkedInfo?.url;
-
-const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" | ");
 ---
 
 <Section>
@@ -27,34 +22,33 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" | ");
       <h1>{name}</h1>
       <h2>{label}</h2>
       <span>
-        <span class="no-print"><WorldMap /></span>
+        <WorldMap />
         {city}, {region}
       </span>
-      <footer class="print">
-        {printInfo}
-      </footer>
-      <footer class="no-print">
+      <footer>
         {
           email && (
             <a
               href={`mailto:${email}`}
-              title={`Email ${name}`}
+              title={`Email ${email}`}
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Mail title={`Email ${name}`} />
+              <Mail title={`Email ${email}`} />
+              <small class="print">{email}</small>
             </a>
           )
         }
         {
           phone && (
             <a
-              href={`tel:${email}`}
-              title={`Call ${name}`}
+              href={`tel:${phone}`}
+              title={`Call ${phone}`}
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Phone title={`Call ${name}`} />
+              <Phone title={`Call ${phone}`} />
+              <small class="print">{phone}</small>
             </a>
           )
         }
@@ -70,6 +64,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" | ");
                 rel="noopener noreferrer"
               >
                 <Icon title={`Visit ${username} on ${network}`} />
+                <small class="print">{url.substring(url.lastIndexOf('/'))}</small>
               </a>
             );
           })
@@ -138,13 +133,14 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" | ");
     border: 1px solid #eee;
     padding: 4px;
     height: 32px;
-    width: 32px;
+    min-width: 32px;
     border-radius: 6px;
+    gap: 2px;
     transition: all 0.3s ease;
   }
 
   footer a:hover {
-    background: #eee;
+    background-color: #eee;
     border: 1px solid #ddd;
   }
 

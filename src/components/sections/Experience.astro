@@ -8,7 +8,7 @@ const shortMonths = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Se
 <Section title="Work Experience">
   <ul>
     {
-      work.map(({ name, startDate, endDate, position, summary, highlights, url }) => {
+      work.map(({ name, startDate, endDate, position, location, summary, highlights, url }) => {
         const startYear = `${shortMonths[new Date(startDate).getMonth()]} ${new Date(startDate).getFullYear()}`;
         const endYear = endDate != null ? `${shortMonths[new Date(endDate).getMonth()]} ${new Date(endDate).getFullYear()}` : "Present";
         const yearRange = `${startYear} - ${endYear}`;
@@ -26,6 +26,7 @@ const shortMonths = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Se
                   <time>{yearRange}</time>
                 </div>
                 <h4>{position}</h4>
+                <h5>{location}</h5>
               </header>
               <footer>
                 <p>{summary}</p>
@@ -58,32 +59,30 @@ const shortMonths = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Se
     text-decoration: underline;
   }
 
-  article h4 {
+  article h4,
+  article h5 {
     color: #222;
     font-weight: 400;
   }
 
-  header {
+  article header {
     display: flex;
     flex-direction: column;
     margin-bottom: 4px;
   }
 
-  header > div {
+  article header > div {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
 
-  time {
+  article time {
     color: #555;
     font-size: 0.85rem;
-    cursor: default;
   }
 
-  @media (width <= 700px) {
-    time {
-      text-align: right;
-    }
+  article footer p {
+    font-size: 0.75rem;
   }
 </style>
