@@ -1,6 +1,6 @@
 ---
+import { basics } from '@cv';
 import Layout from '@/layouts/Layout.astro';
-
 import Hero from '@/components/sections/Hero.astro';
 import About from '@/components/sections/About.astro';
 import Skills from '@/components/sections/Skills.astro';
@@ -9,9 +9,11 @@ import Education from '@/components/sections/Education.astro';
 import Certifications from '@/components/sections/Certificates.astro';
 import Languages from '@/components/sections/Languages.astro';
 import Projects from '@/components/sections/Projects.astro';
+
+const { name, label } = basics;
 ---
 
-<Layout title="Anthony Ulloa | Software Engineer">
+<Layout title=`${name} | ${label}`>
 	<main>
 		<Hero />
 		<About />

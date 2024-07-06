@@ -1,187 +1,251 @@
 {
   "basics": {
-    "name": "John Doe",
-    "label": "Programmer",
+    "name": "Anthony Ulloa",
+    "label": "Full Stack Engineer (FE-heavy) | Javascript | React | Node",
     "image": "",
-    "email": "john@gmail.com",
-    "phone": "(912) 555-4321",
-    "url": "https://johndoe.com",
-    "summary": "A summary of John Doe…",
+    "email": "aulloan93@gmail.com",
+    "phone": "+51 993138952",
+    "url": "",
+    "summary": "Systems Engineer specialized in software development with 8+ years of experience building complex web applications for different industries. Proven ability to design, develop, and deliver scalable and performant front-end and back-end solutions utilizing modern software technologies.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "",
+      "postalCode": "",
+      "city": "Lima",
+      "countryCode": "PE",
+      "region": "Peru"
     },
     "profiles": [
       {
         "network": "LinkedIn",
-        "username": "johndoe",
-        "url": "https://linkedin.com/in/johndoe"
+        "username": "Anthony Ulloa",
+        "url": "https://www.linkedin.com/in/anthony-ulloa-navarro"
       },
       {
         "network": "GitHub",
-        "username": "johndoe",
-        "url": "https://github.com/johndoe"
+        "username": "aUlloaN",
+        "url": "https://github.com/aUlloaN"
       }
     ]
   },
   "work": [
     {
-      "summary": "Tokenized is a Bitcoin wallet for issuing, managing and trading digital tokens. I built out the front end which was packaged as an electron app. It was a difficult frontend to build because we store the users keys locally and used them to sign transactions and contracts.",
-      "url": "https://tokenized.com/",
-      "name": "Tokenized",
-      "location": "Remote",
-      "position": "Senior Javascript Developer",
-      "startDate": "2020-05-05",
-      "endDate": "2021-05-05",
-      "highlights": [
-        "React",
-        "Redux",
-        "SCSS",
-        "Product"
-      ]
+      "name": "PedidosYa",
+      "position": "Software Engineer Fullstack",
+      "location": "Buenos Aires - Argentina | Remote",
+      "url": "https://www.linkedin.com/company/pedidosya/",
+      "startDate": "2021-10-01",
+      "summary": "My main role is to develop scalable web applications with micro-frontend architecture. I'm part of UserAuthentication and UserProfile teams, being part of different initiatives to improve these modules.",
+      "highlights": []
     },
     {
-      "name": "Company",
-      "position": "President",
-      "location": "Melbourne",
-      "url": "https://company.com",
-      "startDate": "2013-01-01",
-      "endDate": "2014-01-01",
-      "summary": "Description…",
-      "highlights": [
-        "Started the company"
-      ]
+      "name": "everis Perú",
+      "position": "Solutions Specific Knowledge Analyst",
+      "location": "Lima - Peru",
+      "url": "https://www.linkedin.com/company/everis-is-nttdata/",
+      "startDate": "2018-11-01",
+      "endDate": "2021-10-01",
+      "summary": "I worked as Senior Frontend Developer for an important client in the Peruvian banking sector. I was part of the team responsible for the definition, design and development of a web application architecture based on micro-frontends. \n Developed software accelerators to reduce the \"Time to Market\" of web applications, such as a core/commons standard library, a Web UI Components library, and a Theme Manager.",
+      "highlights": []
+    },
+    {
+      "name": "ZnerG IT Consulting",
+      "position": "Fullstack Developer → Project Leader",
+      "location": "Addison, TX - United States | Remote",
+      "url": "https://www.linkedin.com/company/znerg-it-consulting-llc/",
+      "startDate": "2015-10-01",
+      "endDate": "2018-10-01",
+      "summary": "Led the development of software solutions for several US clients from different industries, analyzing functional and non-functional requirements defined by stakeholders, planning sprints, and managing tasks. \n As Frontend developer, I built web and hybrid mobile applications. As Backend developer, I developed web services, managed relational databases, and integrated cloud providers.",
+      "highlights": []
+    },
+    {
+      "name": "Obilabs Perú",
+      "position": "Web Developer Intern",
+      "location": "Lima - Peru",
+      "url": "",
+      "startDate": "2015-01-01",
+      "endDate": "2015-05-01",
+      "summary": "Developed CMS and web applications for several Peruvian companies from different industries, using HTML, CSS, Bootstrap, JavaScript, JQuery, PHP, CakePHP, and WordPress.",
+      "highlights": []
     }
   ],
-  "volunteer": [{
-    "organization": "Organization",
-    "position": "Volunteer",
-    "url": "https://organization.com/",
-    "startDate": "2012-01-01",
-    "endDate": "2013-01-01",
-    "summary": "Description…",
-    "highlights": [
-      "Awarded 'Volunteer of the Month'"
-    ]
-  }],
   "education": [{
-    "institution": "University",
-    "url": "https://institution.com/",
-    "area": "Software Development",
+    "institution": "National Technological University of South Lima",
+    "url": "https://www.untels.edu.pe/",
+    "area": "Engineer's degree, Systems Engineering",
     "studyType": "Bachelor",
-    "startDate": "2011-01-01",
-    "endDate": "2013-01-01",
+    "startDate": "2010-09-01",
+    "endDate": "2015-12-01",
     "score": "4.0",
-    "courses": [
-      "DB1101 - Basic SQL"
-    ]
+    "courses": []
   }],
-  "awards": [{
-    "title": "Award",
-    "date": "2014-11-01",
-    "awarder": "Company",
-    "summary": "There is no spoon."
-  }],
-  "certificates": [{
-    "name": "Certificate",
-    "date": "2021-11-07",
-    "issuer": "Company",
-    "url": "https://certificate.com"
-  }],
-  "publications": [{
-    "name": "Publication",
-    "publisher": "Company",
-    "releaseDate": "2014-10-01",
-    "url": "https://publication.com",
-    "summary": "Description…"
-  }],
-  "skills": [
+  "certificates": [
     {
-      "name": "Frontend Development",
-      "level": "Master",
-      "keywords": [
-        "HTML",
-        "CSS",
-        "JavaScript"
-      ]
+      "name": "Legacy JavaScript Algorithms and Data Structures",
+      "date": "2024-07-01",
+      "issuer": "freeCodeCamp",
+      "url": "https://freecodecamp.org/certification/aUlloaN/javascript-algorithms-and-data-structures"
     },
     {
-      "name": "Backend Development",
-      "level": "Master",
-      "keywords": [
-        "HTML",
-        "CSS",
-        "JavaScript"
-      ]
+      "name": "Web Components & Stencil.js - Build Custom HTML Elements",
+      "date": "2020-05-01",
+      "issuer": "Academind",
+      "url": "https://www.udemy.com/certificate/UC-bc1c16f7-95f8-4f73-bb7a-819a4ca8613f/"
+    },
+    {
+      "name": "Scrum Fundamentals Certified",
+      "date": "2018-07-01",
+      "issuer": "SCRUMstudy",
+      "url": "http://81cd1176253f3f59d435-ac22991740ab4ff17e21daf2ed577041.r77.cf1.rackcdn.com/Certificates/ScrumFundamentalsCertified-AnthonyUlloaNavarro-640395.pdf"
+    },
+    {
+      "name": "PHP Total Web Solution",
+      "date": "2014-11-01",
+      "issuer": "National University of Engineering",
+      "url": "https://drive.google.com/file/d/1FmGQ1J2fudiB_qkOhK1zXpyu0CchK0bn/view?usp=drivesdk"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Micro-frontends architecture",
+      "level": "Intermediate",
+      "keywords": ["Software Architecture"]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Advanced",
+      "keywords": ["Frontend Development"]
+    },
+    {
+      "name": "TypeScript",
+      "level": "Advanced",
+      "keywords": ["Frontend Development"]
+    },
+    {
+      "name": "React.js",
+      "level": "Advanced",
+      "keywords": ["Frontend Development"]
+    },
+    {
+      "name": "Next.js",
+      "level": "Advanced",
+      "keywords": ["Frontend Development"]
+    },
+    {
+      "name": "Node.js",
+      "level": "Intermediate",
+      "keywords": ["Backend Development"]
+    },
+    {
+      "name": "Jest",
+      "level": "Intermediate",
+      "keywords": ["Testing"]
+    },
+    {
+      "name": "Angular",
+      "level": "Intermediate",
+      "keywords": ["Frontend Development"]
+    },
+    {
+      "name": "Ionic",
+      "level": "Intermediate",
+      "keywords": ["Frontend Development"]
+    },
+    {
+      "name": "Stencil.js",
+      "level": "Advanced",
+      "keywords": ["Frontend Development"]
+    },
+    {
+      "name": "PHP/Laravel",
+      "level": "Intermediate",
+      "keywords": ["Backend Development"]
+    },
+    {
+      "name": "MySQL/PostgreSQL",
+      "level": "Intermediate",
+      "keywords": ["Relational Databases"]
     }
   ],
   "languages": [
     {
-      "language": "English",
+      "language": "Spanish",
       "fluency": "Native speaker"
     },
     {
-      "language": "Spanish",
-      "fluency": "B1 - Intermediate"
+      "language": "English",
+      "fluency": "B2 - Upper Intermediate"
     }
   ],
-  "interests": [{
-    "name": "Wildlife",
-    "keywords": [
-      "Ferrets",
-      "Unicorns"
-    ]
-  }],
-  "references": [{
-    "name": "Jane Doe",
-    "reference": "Reference…"
-  }],
   "projects": [
     {
-      "name": "Project",
-      "startDate": "2019-01-01",
-      "endDate": "2021-01-01",
-      "description": "Description...",
+      "name": "PedidosYa",
+      "url": "https://www.pedidosya.com/",
+      "description": "Implementation of initiatives to improve and optimize the web application.",
       "highlights": [
-        "Won award at AIHacks 2016"
-      ],
-      "url": "https://project.com/"
-    },
-    {
-      "name": "Project 2",
-      "startDate": "2019-01-01",
-      "endDate": "2021-01-01",
-      "description": "Description...",
-      "highlights": [
-        "React",
-        "Redux",
-        "SCSS",
-        "Product"
+        "Full Stack Developer",
+        "Micro-frontends architecture",
+        "React.js",
+        "Next.js",
+        "Node.js"
       ]
     },
     {
-      "name": "Project 3",
-      "startDate": "2019-01-01",
-      "endDate": "2021-01-01",
-      "description": "Description...",
+      "name": "NFMC",
+      "url": "",
+      "description": "Developed a set of software accelerators to reduce the \"Time to Market\" of web applications.",
       "highlights": [
-        "Won award at AIHacks 2016"
-      ],
-      "url": "https://project.com/"
+        "From scratch",
+        "Frontend Developer",
+        "Micro-frontends architecture",
+        "Angular",
+        "Stencil.js"
+      ]
     },
     {
-      "name": "Project 4",
-      "startDate": "2019-01-01",
-      "endDate": "2021-01-01",
-      "description": "Description...",
+      "name": "Agent",
+      "url": "",
+      "description": "Web application template for building a set of travel agency websites.",
       "highlights": [
-        "React",
-        "Redux",
-        "SCSS",
-        "Product"
+        "Full Stack Developer",
+        "Angular",
+        "Laravel",
+        "MySQL"
+      ]
+    },
+    {
+      "name": "LifeHappens",
+      "url": "https://lifehappens.org/",
+      "description": "Redesign and implement new features to the web application.",
+      "highlights": [
+        "Frontend Developer",
+        "WordPress",
+        "Javascript",
+        "PHP"
+      ]
+    },
+    {
+      "name": "Ottomatik",
+      "url": "https://ottomatik.io/",
+      "description": "Web application to automate backups in simple steps.",
+      "highlights": [
+        "Backend Developer",
+        "Laravel",
+        "MySQL/PostgreSQL",
+        "Amazon Linux"
+      ]
+    },
+    {
+      "name": "Ezier",
+      "url": "https://www.linkedin.com/company/ezier/",
+      "description": "Web & mobile application that works as a marketplace that connects customers to providers' services.",
+      "highlights": [
+        "From scratch",
+        "Full Stack Developer",
+        "Angular",
+        "Ionic",
+        "Laravel",
+        "MySQL",
+        "AWS"
       ]
     }
   ]
