@@ -1,17 +1,15 @@
 ---
 import Section from "@/components/Section.astro";
-import { work } from "@cv";
+import { certificates } from "@cv";
 
 const shortMonths = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 ---
 
-<Section title="Work Experience">
+<Section title="Certificates">
   <ul>
     {
-      work.map(({ name, startDate, endDate, position, location, summary, highlights, url }) => {
-        const startYear = `${shortMonths[new Date(startDate).getMonth()]} ${new Date(startDate).getFullYear()}`;
-        const endYear = endDate != null ? `${shortMonths[new Date(endDate).getMonth()]} ${new Date(endDate).getFullYear()}` : "Present";
-        const yearRange = `${startYear} - ${endYear}`;
+      certificates.map(({ name, date, issuer, url }) => {
+        const year = `${shortMonths[new Date(date).getMonth()]} ${new Date(date).getFullYear()}`;
 
         return (
           <li>
@@ -23,17 +21,15 @@ const shortMonths = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Se
                       {name}
                     </a>
                   </h3>
-                  <time>{yearRange}</time>
+                  <time>{year}</time>
                 </div>
-                <h4>{position}</h4>
-                <h5>{location}</h5>
               </header>
               <footer>
-                <p>{summary}</p>
+                <p>{issuer}</p>
               </footer>
             </article>
           </li>
-        );
+        )
       })
     }
   </ul>
@@ -59,12 +55,6 @@ const shortMonths = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Se
     text-decoration: underline;
   }
 
-  article h4,
-  article h5 {
-    color: #222;
-    font-weight: 400;
-  }
-
   article header {
     display: flex;
     flex-direction: column;
@@ -80,9 +70,5 @@ const shortMonths = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Se
   article time {
     color: #555;
     font-size: 0.85rem;
-  }
-
-  article footer p {
-    font-size: 0.75rem;
   }
 </style>
