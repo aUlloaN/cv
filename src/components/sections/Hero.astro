@@ -13,7 +13,12 @@ const { city, region } = location;
 const SOCIAL_ICONS: Record<string, any> = {
   GitHub,
   LinkedIn,
-}
+};
+
+const linkedInfo = profiles.find(({ network }) => network === "LinkedIn");
+const linkedUrl = linkedInfo?.url;
+
+const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" | ");
 ---
 
 <Section>
@@ -22,10 +27,13 @@ const SOCIAL_ICONS: Record<string, any> = {
       <h1>{name}</h1>
       <h2>{label}</h2>
       <span>
-        <WorldMap />
+        <span class="no-print"><WorldMap /></span>
         {city}, {region}
       </span>
-      <footer>
+      <footer class="print">
+        {printInfo}
+      </footer>
+      <footer class="no-print">
         {
           email && (
             <a
